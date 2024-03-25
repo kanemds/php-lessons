@@ -1,0 +1,4 @@
+
+use for wordpress extra as zip file
+
+sudo apt-get install php-zip
