@@ -1,0 +1,12 @@
+
+
+sudo apt-get install -y php-igbinary
+
+
+Feature	        Standard Serialization (serialize())	  php-igbinary
+Format	        Text-based	                            Compact binary
+Size	          Larger	                                Smaller
+Performance	    Slower	                                Faster
+Memory Usage	  Higher	                                Lower
+
+
