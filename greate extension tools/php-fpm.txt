@@ -1,0 +1,33 @@
+
+
+PHP-FPM (PHP FastCGI Process Manager)
+
+CGI (Common Gateway Interface) 
+
+---------------------------------------------------------------------------------------------------------------------------
+shorter
+
+FastCGI or CGI: as a language translator between web servers and web applications.
+FastCGI improves performance by keeping applications ready to handle requests, instead of starting new ones each time(CGI).
+More secure and scalable than the older CGI method.
+Works with various languages, not just PHP (unlike PHP-FPM).
+
+
+---------------------------------------------------------------------------------------------------------------------------
+longer
+
+FastCGI (Fast Common Gateway Interface) is a protocol that acts like a supercharged translator between web servers and web applications. Unlike the older CGI method, which started a new program for each request, FastCGI keeps application processes running in the background. This is similar to having a team of waiters ready to take orders at a restaurant instead of hiring a new one for each customer.
+
+This "always-on" approach significantly boosts performance because there's no need to constantly create and destroy application processes. It's like the waiters already knowing the menu and being prepared to serve, leading to faster response times for web requests.
+
+FastCGI also offers benefits in security and scalability. It provides a more secure communication channel compared to CGI, and by managing multiple application processes, it can handle high traffic volumes by distributing the workload efficiently. Imagine adding more waiters during a lunch rush to handle the extra customers.
+
+The key advantage of FastCGI is its versatility. While PHP-FPM is a specialized tool for PHP using FastCGI, FastCGI itself can work with various programming languages like Python, Ruby, Perl, and even C++.  So, it's a flexible solution for different web application needs.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+options beside PHP-FPM: 
+
+PHP-FPM: For best performance and scalability: Use PHP-FPM.
+mod_php: if using Apache web server, suffers from performance limitations compared to PHP-FPM(especially for high-traffic websites).
+CGI: Avoid CGI for new applications: It's outdated and inefficient.

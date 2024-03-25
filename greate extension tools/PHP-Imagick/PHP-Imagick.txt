@@ -1,0 +1,16 @@
+
+install:
+sudo apt-get install -y php-imagick
+
+
+PHP-Imagick can be used to perform a variety of image manipulation tasks, such as:
+
+Reading and writing image files
+Resizing and cropping images
+Converting between different image formats
+Adding text and watermarks to images
+Applying special effects to images
+
+
+PHP-Imagick is a powerful tool for working with images in PHP. 
+It can be used to create dynamic image galleries, generate thumbnails, and add watermarks to images.

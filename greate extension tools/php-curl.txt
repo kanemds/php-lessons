@@ -1,0 +1,6 @@
+
+php-curl is an extension for PHP
+
+php-curl is an extension that empowers PHP applications to communicate with various servers for data transfer and interaction.
+
+php-curl typically includes support for various PHP versions no need to worry version not match

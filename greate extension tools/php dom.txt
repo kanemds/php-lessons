@@ -1,0 +1,36 @@
+ 
+
+sudo apt-get install php{version}-xml
+
+it is a package that pulls in various sub-packages related to XML functionalities for PHP.
+
+which it is an easy way to make sure install all the sub-packages that can run basic XML
+
+----------------------------------------------sub-packages-------------------------------------------------------
+DOM extension: A core extension for working with XML documents through a tree-like structure.
+SimpleXML extension: An alternative approach for simpler XML parsing and manipulation.
+XML Parser libraries: Libraries that handle the underlying parsing of XML data.
+Other XML-related functionalities: Depending on the specific package versions and your system configuration, there might be additional tools or libraries included.
+----------------------------------------------sub-packages-------------------------------------------------------
+
+
+
+
+from the 
+
+<?php
+
+phpinfo();
+
+search for dom(able to see below):
+
+
+dom
+DOM/XML	enabled
+DOM/XML API Version	20031129
+libxml Version	2.9.13
+HTML Support	enabled
+XPath Support	enabled
+XPointer Support	enabled
+Schema Support	enabled
+RelaxNG Support	enabled
