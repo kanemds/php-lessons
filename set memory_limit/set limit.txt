@@ -1,0 +1,16 @@
+
+
+
+/etc/php/8.1/fpm/pool.d/www.conf
+
+php_admin_value[memory_limit] = 800M <--- change this
+
+after that 
+
+<?php 
+
+info();
+
+search for memory will changed
+
+memory_limit	800M	800M
